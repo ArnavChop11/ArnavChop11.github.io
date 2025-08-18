@@ -66,4 +66,4 @@ export const siteConfig = {
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
-  ],
+  ]; 
