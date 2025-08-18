@@ -23,18 +23,16 @@ export const siteConfig = {
       skills: ["Maybe put relevant skills here"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Handwritten Digit Recognition Using CNN on FPGA",
+      description: "Write project description here",
+      //link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: ["Maybe put relevant skills here"],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Optimized Convolutional Layer Using CUDA",
+      description: "Write project description here",
+      //link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Maybe put relevant skills here"],
     },
   ],
   experience: [],
