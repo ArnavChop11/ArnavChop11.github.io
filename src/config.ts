@@ -7,7 +7,7 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "arnavchopra1@icloud.com",
-    linkedin: "www.linkedin.com/in/arnav-chopra-8b4a43201",
+    linkedin: "www.linkedin.com/in/arnav-chopra-8b4a43201/",
     // remove twitter if you don't use it
     // twitter: "",
     //github: "https://github.com/ArnavChop11",
