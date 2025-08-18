@@ -6,8 +6,8 @@ export const siteConfig = {
   description: "Portfolio website of Arnav Chopra",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    email: "arnavchopra1@icloud.com",
+    linkedin: "www.linkedin.com/in/arnav-chopra-8b4a43201",
     // remove twitter if you don't use it
     // twitter: "",
     //github: "https://github.com/ArnavChop11",
@@ -17,11 +17,10 @@ export const siteConfig = {
   skills: [],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Pipelined Out-of-Order RISC-V Processor",
+      description: "Write project description here",
+      //link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["Maybe put relevant skills here"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
