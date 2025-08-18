@@ -1,16 +1,19 @@
-export const siteConfig = {
+// src/config.ts
+
+const siteConfig = {
   name: "Arnav Chopra",
   title: "Hardware Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Portfolio website of Arnav Chopra",
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    // delete this line if you don't use X/Twitter
+    // twitter: "",
+    github: "https://github.com/ArnavChop11",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Short bio about your FPGA/ASIC/CUDA focus. Replace this with 2–3 sentences about you.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
@@ -66,4 +69,11 @@ export const siteConfig = {
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
-  ]; 
+  ],
+  // keep the key so the section hides safely
+  education: [],
+} as const;
+
+export default siteConfig;
+// (If some files use named import, this also helps)
+// export { siteConfig };
