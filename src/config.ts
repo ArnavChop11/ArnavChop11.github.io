@@ -14,7 +14,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Short bio about your FPGA/ASIC/CUDA focus. Replace this with 2–3 sentences about you.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: [],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
