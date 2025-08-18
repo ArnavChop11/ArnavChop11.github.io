@@ -1,6 +1,6 @@
 // src/config.ts
 
-const siteConfig = {
+export const siteConfig = {
   name: "Arnav Chopra",
   title: "Hardware Engineer",
   description: "Portfolio website of Arnav Chopra",
@@ -8,7 +8,7 @@ const siteConfig = {
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
-    // delete this line if you don't use X/Twitter
+    // remove twitter if you don't use it
     // twitter: "",
     github: "https://github.com/ArnavChop11",
   },
@@ -70,10 +70,9 @@ const siteConfig = {
       ],
     },
   ],
-  // keep the key so the section hides safely
+
+  // Keep the key; empty array hides the section without breaking imports/types
   education: [],
 } as const;
 
 export default siteConfig;
-// (If some files use named import, this also helps)
-// export { siteConfig };
