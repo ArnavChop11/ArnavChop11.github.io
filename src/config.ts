@@ -29,19 +29,19 @@ export const siteConfig = {
     {
       name: "Pipelined Out-of-Order RISC-V Processor",
       description: "Write project description here",
-      //link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "https://github.com/ArnavChop11/RISCV-Processor",
       skills: ["Maybe put relevant skills here"],
     },
     {
       name: "Handwritten Digit Recognition Using CNN on FPGA",
       description: "Write project description here",
-      //link: "https://fullstackextensions.com/?ref=devportfolio",
+      link: "https://github.com/ArnavChop11/CNN-on-FPGA",
       skills: ["Maybe put relevant skills here"],
     },
     {
       name: "Optimized Convolutional Layer Using CUDA",
       description: "Write project description here",
-      //link: "https://extensionkit.io/?ref=devportfolio",
+      link: "https://github.com/ArnavChop11/Conv-Layer-CUDA",
       skills: ["Maybe put relevant skills here"],
     },
   ],
