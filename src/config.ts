@@ -22,27 +22,28 @@ export const siteConfig = {
     opporunity to work on many exciting and challenging projects involving computer architecture and 
     AI acceleration. This includes a Pipelined Out-Of-Order RISC-V Processor, a Handwritten Digit Recognition 
     System built on an FPGA, and a deeply optimized Convolutional Layer using CUDA. All these projects are further
-    detailed below. I am currently working on a [HFT project here]. I am seeking internship/full-time opportunities
-    in ASIC/FPGA design and/or verification, and am always excited to learn about new technologies.`,
+    detailed below. I am seeking internship/full-time opportunities in ASIC/FPGA design and/or verification, 
+    and am always excited to learn about new technologies.`,
+  //I am currently working on a [HFT project here]. add this in after CUDA
   skills: [],
   projects: [
     {
       name: "Pipelined Out-of-Order RISC-V Processor",
       description: "Write project description here",
       link: "https://github.com/ArnavChop11/RISCV-Processor",
-      skills: ["Maybe put relevant skills here"],
+      skills: ["SystemVerilog, Assembly, VCS, Verdi, SpyGlass, Verilator, Linux, FPGA"],
     },
     {
       name: "Handwritten Digit Recognition Using CNN on FPGA",
       description: "Write project description here",
       link: "https://github.com/ArnavChop11/CNN-on-FPGA",
-      skills: ["Maybe put relevant skills here"],
+      skills: ["SystemVerilog, FPGA, C++"],
     },
     {
       name: "Optimized Convolutional Layer Using CUDA",
       description: "Write project description here",
       link: "https://github.com/ArnavChop11/Conv-Layer-CUDA",
-      skills: ["Maybe put relevant skills here"],
+      skills: ["CUDA, Python, Nsight Systems, Nsight Compute"],
     },
   ],
   experience: [],
