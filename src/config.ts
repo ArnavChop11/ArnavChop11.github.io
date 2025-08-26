@@ -32,11 +32,11 @@ export const siteConfig = {
       description: `Our team designed and implemented an out-of-order RISC-V processor using the 
       Explicit Register Renaming (ERR) microarchitecture, written entirely in SystemVerilog. 
       The design supports the RV32IM instruction set with advanced features that increase throughput 
-      in numerous benchmarks. <br /><br />
+      in numerous benchmarks. 
       
       These advanced features include: 
       
-      <strong>Pipelined Cache:</strong><br />
+       Pipelined Cache:
        We designed a parameterized pipelined instruction and data cache to improve throughput 
        and reduce memory latency. Advanced features included back-to-back cache hits, PLRU replacement 
        for any power-of-two associativity, and branch-aware memory scheduling. Verified with randomized 
