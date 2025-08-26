@@ -34,8 +34,8 @@ export const siteConfig = {
       The design supports the RV32IM instruction set with advanced features that increase throughput 
       in numerous benchmarks. These advanced features include: 
       
-      /n - Pipelined Cache
-      /n     We designed a parameterized pipelined instruction and data cache to improve throughput 
+      \n - Pipelined Cache
+      \n     We designed a parameterized pipelined instruction and data cache to improve throughput 
              and reduce memory latency. Advanced features included back-to-back cache hits, PLRU replacement 
              for any power-of-two associativity, and branch-aware memory scheduling. Verified with randomized 
              testbenches and full benchmark integration, the cache eliminated critical memory paths and lowered 
