@@ -29,12 +29,12 @@ export const siteConfig = {
   projects: [
     {
       name: "Pipelined Out-of-Order RISC-V Processor",
-      description: `Our team designed and implemented an out-of-order RISC-V processor using the Explicit Register Renaming (ERR) microarchitecture, written entirely in SystemVerilog. The design supports the RV32IM instruction set with advanced features that increase throughput in numerous benchmarks. 
+      description: `Our team designed and implemented an out-of-order RISC-V processor using the Explicit Register Renaming (ERR) microarchitecture, written entirely in SystemVerilog. The design supports the RV32IM instruction set with advanced features that increase throughput in numerous benchmarks 
       
       These advanced features include: 
       
       Pipelined Cache:
-      We designed a parameterized pipelined instruction and data cache to improve throughput and reduce memory latency. Advanced features included back-to-back cache hits, PLRU replacement for any power-of-two associativity, and branch-aware memory scheduling. Verified with randomized testbenches and full benchmark integration, the cache eliminated critical memory paths and lowered the processor’s clock period to 2100 ns. A 2-way 64-set cache provided the best balance of power and delay, meeting benchmark requirements efficiently. 
+      We designed a parameterized pipelined instruction and data cache to improve throughput and reduce memory latency. Advanced features included back-to-back cache hits, PLRU replacement for any power-of-two associativity, and branch-aware memory scheduling. Verified with randomized testbenches and full benchmark integration, the cache eliminated critical memory paths and lowered the processor’s clock period to 2100 ns. A 2-way 64-set cache provided the best balance of power and delay, meeting benchmark requirements efficiently 
 
       Split LSQ
       We implemented a split Load-Store Queue (LSQ) that enables loads to issue out of order between in-order stores, improving memory concurrency. Loads and stores share the same functional unit but dispatch to separate reservation stations, with additional checks to ensure correctness with pending stores and branches
@@ -49,7 +49,14 @@ export const siteConfig = {
     },
     {
       name: "Handwritten Digit Recognition Using CNN on FPGA",
-      description: "Write project description here",
+      description: `In this project, we created a handwritten digit recognition system on the FPGA, using a Convolutional Neural Network (CNN). The user is able to input ahandwritten digit 0-9 that is 28x28 pixels and receive an output that identifies the digit that was drawn.
+
+      To translate CNN inference into RTL, we created dedicated hardware for two Convolution+ReLU layers, a max pooling layer, and two fully connected layers. Memory management was a major challenge due to over 100,000 parameters and nearly 10,000 intermediate neuron values. We addressed this by preloading parameters into ROMs and allocating intermediate results in BRAMs, enabling parallel access for convolutions. All floating-point parameters were converted into 9-bit fixed-point (Q3.6) representation to reduce FPGA resource usage while retaining accuracy. An FSM controlled the sequencing of layer operations, balancing parallelization for performance against serialization for hardware efficiency
+
+      The design achieved stable inference at 118.9 MHz with a total power consumption of 473 mW (75 mW static, 398 mW dynamic). Resource utilization included ~19,000 LUTs, 32 BRAMs, 4,318 flip-flops, and only 3 DSP slices, showing the efficiency of our fixed-point approach. Simulation waveforms confirmed correct top-3 digit predictions and validated classification across multiple test images
+
+      This project showcased the end-to-end process of implementing a CNN in hardware: preprocessing images, managing parameters, building custom convolution/pooling/FC modules, and integrating them into a functional inference pipeline. It provided hands-on experience with SystemVerilog, FPGA memory management, and hardware acceleration for AI, demonstrating the potential of FPGAs for efficient machine learning inference
+      `,
       link: "https://github.com/ArnavChop11/CNN-on-FPGA",
       skills: ["SystemVerilog", "FPGA", "C++"],
     },
@@ -61,7 +68,6 @@ export const siteConfig = {
     },
   ],
   experience: [],
-  // Keep the key; empty array hides the section without breaking imports/types
   education: [],
 } as const;
 
