@@ -18,7 +18,7 @@ export const siteConfig = {
     on creating cutting edge platform-agnostic high-performance machine learning infrastructure. In this role, 
     I have honed in my skills with SystemVerilog, C, and verification by working on the architecture and 
     prototyping of a stripped-down systolic array accelerator optimized for deterministic, low-latency INT8 
-    matrix multiplication with BF16 accumulation. I also have strong project experience, and have had the
+    matrix multiplication with BF16 accumulation on an FPGA. I also have strong project experience, and have had the
     opporunity to work on many exciting and challenging projects involving computer architecture and 
     AI acceleration. This includes a Pipelined Out-Of-Order RISC-V Processor, a Handwritten Digit Recognition 
     System built on an FPGA, and a deeply optimized Convolutional Layer using CUDA. All these projects are further
