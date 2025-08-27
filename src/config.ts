@@ -49,7 +49,7 @@ export const siteConfig = {
     },
     {
       name: "Handwritten Digit Recognition Using CNN on FPGA",
-      description: `In this project, we created a handwritten digit recognition system on the FPGA, using a Convolutional Neural Network (CNN). The user is able to input ahandwritten digit 0-9 that is 28x28 pixels and receive an output that identifies the digit that was drawn.
+      description: `In this project, we created a handwritten digit recognition system on an FPGA, using a Convolutional Neural Network (CNN). The user is able to input a handwritten digit 0-9 that is 28x28 pixels and receive an output that identifies the digit that was drawn.
 
       To translate CNN inference into RTL, we created dedicated hardware for two Convolution+ReLU layers, a max pooling layer, and two fully connected layers. Memory management was a major challenge due to over 100,000 parameters and nearly 10,000 intermediate neuron values. We addressed this by preloading parameters into ROMs and allocating intermediate results in BRAMs, enabling parallel access for convolutions. All floating-point parameters were converted into 9-bit fixed-point (Q3.6) representation to reduce FPGA resource usage while retaining accuracy. An FSM controlled the sequencing of layer operations, balancing parallelization for performance against serialization for hardware efficiency
 
