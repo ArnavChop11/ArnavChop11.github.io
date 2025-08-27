@@ -62,7 +62,26 @@ export const siteConfig = {
     },
     {
       name: "Optimized Convolutional Layer Using CUDA",
-      description: "Write project description here",
+      description: `I implemented the forward pass of a Convolutional Neural Network (CNN) in CUDA, translating the mathematical operations of convolution and fully connected layers into highly parallel GPU kernels. The project explored how deep learning computations can be optimized for GPU architectures. I implemented many advanced features that optimized memory exchange and matrix multiplication. These features are detailed below. 
+
+      Optimizations: 
+
+      Tiling and Shared Memory:
+      Partitioned input data into tiles and reused them in shared memory, reducing redundant global memory accesses and improving memory bandwidth utilization
+
+      Input Unrolling:
+      Transformed convolution into a matrix multiplication problem by unrolling input feature maps, enabling coalesced memory access and better GPU parallelism
+
+      Kernel Fusion:
+      Combined successive CNN operations (e.g., convolution, bias addition, activation) into a single CUDA kernel, minimizing intermediate memory transfers and launch overhead
+
+      Tensor Core Utilization:
+      Leveraged NVIDIA Tensor Cores with mixed-precision matrix multiply-accumulate operations, achieving significantly faster throughput for convolution layers
+
+      Performance improvements were measured at each milestone using Nsight Systems and Nsight Compute, which provided detailed insights into memory throughput, occupancy, and instruction efficiency. These optimizations led to significant reductions in runtime compared to the baseline implementation, demonstrating the impact of GPU-aware design decisions
+
+      This project provided hands-on experience with GPU programming, CUDA optimization strategies, and profiling tools, while reinforcing my understanding of how CNN inference can be accelerated on modern GPU architectures
+      `,
       link: "https://github.com/ArnavChop11/Conv-Layer-CUDA",
       skills: ["CUDA", "Python", "Nsight Systems", "Nsight Compute"],
     },
