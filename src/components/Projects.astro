@@ -7,20 +7,27 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
   hasProjects && (
     <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
       <div>
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-          <div class="lg:col-span-4">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
-              Projects
-            </h2>
-            <div
-              class="w-[75px] h-[5px] mt-2 rounded-full"
-              style={`background-color: ${siteConfig.accentColor}`}
-            />
-          </div>
-<p class="text-lg sm:text-xl text-gray-600 mt-4 mb-6">
-    All repositories for projects can be found at link in top right corner in individual project sections
-    </a>.
-  </p>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+ 
+  <div class="lg:col-span-4">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+      Projects
+    </h2>
+    <div
+      class="w-[75px] h-[5px] mt-2 rounded-full"
+      style={`background-color: ${siteConfig.accentColor}`}
+    />
+
+
+    <p class="text-lg sm:text-xl text-gray-600 mt-4 mb-6">
+      All repositories for projects can be found via the link in the top-right corner of each project card.
+    </p>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="lg:col-span-8">
+    ...
+  </div>
 </div>
 
           <div class="lg:col-span-8">
