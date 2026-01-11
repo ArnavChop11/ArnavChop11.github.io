@@ -28,6 +28,15 @@ export const siteConfig = {
   skills: [],
   projects: [
     {
+
+      name: "UVM Verification Project",
+      description: `Building a UVM verification environment for an APB data aligner`,
+      link: "https://github.com/ArnavChop11/UVM-project",
+      skills: ["UVM", "SystemVerilog", "Verification"],
+      
+
+    },
+    {
       name: "Pipelined Out-of-Order RISC-V Processor",
       description: `Our team designed and implemented an out-of-order RISC-V processor using the Explicit Register Renaming (ERR) microarchitecture, written entirely in SystemVerilog. The design supports the RV32IM instruction set with advanced features that increase throughput in numerous benchmarks 
       
