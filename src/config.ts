@@ -2,7 +2,8 @@
 
 export const siteConfig = {
   name: "Arnav Chopra",
-  title: "Hardware Engineer",
+  title: "Hardware Engineer"
+  "Senior",
   description: "Portfolio website of Arnav Chopra",
   accentColor: "#1d4ed8",
   social: {
