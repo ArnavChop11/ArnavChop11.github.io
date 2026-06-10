@@ -30,13 +30,7 @@ export const siteConfig = {
     {
 
       name: "UVM Verification Project",
-      description: `This project implements and verifies a parameterized synchronous FIFO design using SystemVerilog. The FIFO supports configurable data width and depth, full and empty flag generation, pointer wraparound, invalid read/write protection, and simultaneous read/write operation. The main focus of the project was not only to design the RTL, but to build a layered verification flow that demonstrates both custom SystemVerilog testbench development and UVM-based verification methodology.
-
-The verification effort was developed in two stages. First, a class-based non-UVM testbench was created to manually build the core verification flow, including randomized transaction generation, driver, monitor, scoreboard, mailboxes, events, and virtual interface usage. This helped establish a strong understanding of how verification components communicate and how a self-checking environment can model expected DUT behavior.
-
-Next, the project was extended into a reusable UVM verification environment. The UVM testbench includes a sequence item, constrained-random sequence, sequencer, driver, monitor, active agent, scoreboard, environment, test, virtual interface, and top-level testbench. The monitor sends observed FIFO transactions to the scoreboard through a UVM analysis port, while the scoreboard uses a SystemVerilog queue-based reference model to verify FIFO ordering, data output correctness, full and empty flag behavior, read-while-empty cases, write-while-full cases, and concurrent read/write transactions.
-
-The project demonstrates a complete verification workflow from basic RTL validation to a structured UVM environment with factory registration, configuration database-based virtual interface passing, randomized stimulus generation, self-checking scoreboarding, and automated pass/fail reporting.`,
+      description: `Building a UVM verification environment for an APB data aligner`,
       link: "https://github.com/ArnavChop11/UVM-project",
       skills: ["UVM", "SystemVerilog", "Verification"],
       
@@ -46,7 +40,13 @@ The project demonstrates a complete verification workflow from basic RTL validat
     {
 
       name: "FIFO_verif",
-      description: `Building a UVM verification environment for an APB data aligner`,
+      description: `This project implements and verifies a parameterized synchronous FIFO design using SystemVerilog. The FIFO supports configurable data width and depth, full and empty flag generation, pointer wraparound, invalid read/write protection, and simultaneous read/write operation. The main focus of the project was not only to design the RTL, but to build a layered verification flow that demonstrates both custom SystemVerilog testbench development and UVM-based verification methodology.
+
+The verification effort was developed in two stages. First, a class-based non-UVM testbench was created to manually build the core verification flow, including randomized transaction generation, driver, monitor, scoreboard, mailboxes, events, and virtual interface usage. This helped establish a strong understanding of how verification components communicate and how a self-checking environment can model expected DUT behavior.
+
+Next, the project was extended into a reusable UVM verification environment. The UVM testbench includes a sequence item, constrained-random sequence, sequencer, driver, monitor, active agent, scoreboard, environment, test, virtual interface, and top-level testbench. The monitor sends observed FIFO transactions to the scoreboard through a UVM analysis port, while the scoreboard uses a SystemVerilog queue-based reference model to verify FIFO ordering, data output correctness, full and empty flag behavior, read-while-empty cases, write-while-full cases, and concurrent read/write transactions.
+
+The project demonstrates a complete verification workflow from basic RTL validation to a structured UVM environment with factory registration, configuration database-based virtual interface passing, randomized stimulus generation, self-checking scoreboarding, and automated pass/fail reporting.`,
       link: "https://github.com/ArnavChop11/FIFO_verif/tree/main",
       skills: ["UVM", "SystemVerilog", "Verification"],
       
